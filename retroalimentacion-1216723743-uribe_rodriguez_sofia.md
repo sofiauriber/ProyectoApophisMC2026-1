@@ -5,7 +5,7 @@
 
 ## Archivos revisados
 
-- Proyecto_Apophis_PrimeraEntrega.ipynb (archivo no encontrado)
+- Proyecto_Apophis_PrimeraEntrega.ipynb (versión final entregada)
 
 ## Historial de commits
 
@@ -30,7 +30,7 @@ Interpretación breve: Ritmo aceptable con evidencia de trabajo distribuido; la 
 
 ## Retroalimentación
 
-- Archivo revisado: Proyecto_Apophis_PrimeraEntrega.ipynb
+- Archivo revisado: Proyecto_Apophis_PrimeraEntrega.ipynb (versión final entregada)
 
 ### Aspectos positivos
 
@@ -40,16 +40,27 @@ Interpretación breve: Ritmo aceptable con evidencia de trabajo distribuido; la 
 
 ### Aspectos por mejorar
 
-- No se entiende el gráfico con título "Trayectoria de los 3 cuerpos"
-- No hay un cálculo de la distancia mínima y la fecha de mínima aproximación en el caso de la integración con REBOUND.
-- Tampoco hay un cálculo de la distancia usando la teoría del problema de los dos cuerpos.
-- Para la trayectoria en el CRTBP no se entiende que condiciones iniciales utilizo y por qué uso las que muestra allí.
-- No se muestra cómo el cálculo del potencial modificado y los puntos de Lagrange contribuyen a resolver el problema del proyecto que es determinar a qué distancia y en que fecha pasa Apophis.
-- Falta fortalecer la parte de análisis y reflexión; no basta con mostrar resultados sin interpretarlos.
-- Hay celdas de código muy largas; se recomienda modularizar en funciones y dividir bloques extensos.
-- Se recomienda cerrar con una sección unica de conclusiones (3-5 puntos) que sintetice hallazgos físicos y computacionales y responda directamente al objetivo del proyecto.
+- No se entiende el gráfico con título "Trayectoria de los 3 cuerpos" [Parcialmente mejorado]
+- No hay un cálculo de la distancia mínima y la fecha de mínima aproximación en el caso de la integración con REBOUND. [Mejorado]
+- Tampoco hay un cálculo de la distancia usando la teoría del problema de los dos cuerpos. [Mejorado]
+- Para la trayectoria en el CRTBP no se entiende que condiciones iniciales utilizo y por qué uso las que muestra allí. [Mejorado]
+- No se muestra cómo el cálculo del potencial modificado y los puntos de Lagrange contribuyen a resolver el problema del proyecto que es determinar a qué distancia y en que fecha pasa Apophis. [Parcialmente mejorado]
+- Falta fortalecer la parte de análisis y reflexión; no basta con mostrar resultados sin interpretarlos. [Mejorado]
+- Hay celdas de código muy largas; se recomienda modularizar en funciones y dividir bloques extensos. [Parcialmente mejorado]
+- Se recomienda cerrar con una sección unica de conclusiones (3-5 puntos) que sintetice hallazgos físicos y computacionales y responda directamente al objetivo del proyecto. [Mejorado]
 
 ### Valoración global
 
 - El trabajo tiene avances técnicos, pero necesita mejoras de fondo en comunicación de resultados y/o cumplimiento explícito del objetivo.
 - Estado de recepción: requiere cambios antes de recepción final.
+- Los resultados en la mayoría de los experimentos son un desastre con distancias tangrandes como 1 millones de kilómetros.
+- Se dejan experimentos numéricos que no funcionan (pe. en el problema de los tres cuerpos)
+
+## Valoración final
+
+- Mejoras implementadas: 4.06 (70%)
+- Aplicación al repositorio: 3.75 (10%)
+- Aspectos positivos: 3.00 (10%)
+- Valoración global: 2.00 (10%)
+
+**Nota final (redondeada)**: 0.7×4.06 + 0.1×3.75 + 0.1×3.00 + 0.1×2.00 = (redondeado) 3.7
